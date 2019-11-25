@@ -9,6 +9,21 @@ export default new Router({
     {
       path: '/',
       component: ()=>import("../components/index.vue")
-    }
+    },{
+      path: '/anchor',
+      component: ()=>import("../components/anchor.vue")
+    },{
+      path: '/newCD',
+      component: ()=>import("../components/newCD.vue")
+    },{
+      path: '/Ranking',
+      component: ()=>import("../components/Ranking.vue")
+    },{
+      path: '/singer',
+      component: ()=>import("../components/singer.vue")
+    },{
+      path: '/songSheet',
+      component: ()=>import("../components/songSheet.vue")
+    },
   ]
 })

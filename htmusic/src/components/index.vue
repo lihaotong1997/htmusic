@@ -2,7 +2,7 @@
 	<div>
 		<Head></Head>
 		<RotationChart></RotationChart>
-		<div>
+		<div class="layout">
 			<HomeContent></HomeContent>
 			<Sidebar></Sidebar>
 		</div>
@@ -21,5 +21,12 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
+	.layout{
+		width: 980px;
+	    margin: 0 auto;
+	    background-color: #fff;
+	    border: 1px solid #d3d3d3;
+	    overflow: hidden;
+	}
 </style>
